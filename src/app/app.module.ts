@@ -3,11 +3,15 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { EventsComponent } from './events/events.component';
+import { EventsListComponent } from './events-list/events-list.component';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    EventsComponent,
+    EventsListComponent
   ],
   imports: [
     BrowserModule
