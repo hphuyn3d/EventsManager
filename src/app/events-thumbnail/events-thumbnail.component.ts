@@ -8,10 +8,6 @@ import { Component, OnInit, Input, EventEmitter, Output } from '@angular/core';
 export class EventsThumbnailComponent implements OnInit {
 
   @Input() event: any;
-  someProperty: any = 'Some Value';
-  logFoo() {
-    console.log('foo');
-  }
   constructor() { }
 
   ngOnInit() {
