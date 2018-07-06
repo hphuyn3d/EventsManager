@@ -3,7 +3,6 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
-import { EventsComponent } from './events/events.component';
 import { EventsListComponent } from './events-list/events-list.component';
 import { EventsThumbnailComponent } from './events-thumbnail/events-thumbnail.component';
 
@@ -11,7 +10,6 @@ import { EventsThumbnailComponent } from './events-thumbnail/events-thumbnail.co
 @NgModule({
   declarations: [
     AppComponent,
-    EventsComponent,
     EventsListComponent,
     EventsThumbnailComponent
   ],

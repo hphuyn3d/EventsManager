@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, EventEmitter, Output } from '@angular/core';
 
 @Component({
   selector: 'app-events-thumbnail',
@@ -8,6 +8,10 @@ import { Component, OnInit, Input } from '@angular/core';
 export class EventsThumbnailComponent implements OnInit {
 
   @Input() event: any;
+  @Output() eventClick = new EventEmitter();
+  handleClickMe() {
+    this.eventClick.emit(this.event.name);
+  }
 
   constructor() { }
 
