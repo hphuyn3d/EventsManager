@@ -1,5 +1,10 @@
   <h1>Upcoming Angular Events</h1>
   <hr>
-  <app-events-thumbnail #thumbnail [event]="event1"></app-events-thumbnail>
+  <div class="row">
+    <div class="col-md-5" *ngFor="let event of events" >
+        <app-events-thumbnail [event]="event"></app-events-thumbnail>
+
+    </div>
+  </div>
 
 
