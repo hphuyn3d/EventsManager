@@ -16,6 +16,7 @@ import { Error404Component } from './errors/404.component';
 import { EventRouteActivator } from './event-details/event-route-activator.service';
 import { EventListResolver } from './shared/events-list-resolver.service';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -24,7 +25,8 @@ import { EventListResolver } from './shared/events-list-resolver.service';
     NavComponent,
     EventDetailsComponent,
     CreateEventComponent,
-    Error404Component
+    Error404Component,
+
   ],
   imports: [
     BrowserModule,
